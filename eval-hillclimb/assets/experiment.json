@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "design-only",
+  "target": "",
+  "goal": "quality",
+  "allowed_changes": [],
+  "off_limits": [
+    "evaluator",
+    "answer keys",
+    "final-test"
+  ],
+  "min_effect": 0.05,
+  "quality_tolerance": 0,
+  "max_rounds": 6,
+  "budget_usd": null,
+  "stalled_rounds": 3,
+  "dataset_version": "",
+  "grader_version": "",
+  "runner_config": "",
+  "baseline_run": "",
+  "train_evaluation": "",
+  "validation_service": "",
+  "final_test_owner": "",
+  "assumptions": [],
+  "rounds": []
+}

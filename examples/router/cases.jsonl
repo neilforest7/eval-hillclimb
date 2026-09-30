@@ -1,0 +1,18 @@
+{"id":"refund-a","input":"Please refund my unused subscription.","expected":"refund","group_id":"refund-a","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"refund-b","input":"I'd like my money back for a cancelled order.","expected":"refund","group_id":"refund-b","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"refund-c","input":"I was charged twice for the same purchase.","expected":"refund","group_id":"refund-c","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"refund-d","input":"There is a duplicate charge on my statement.","expected":"refund","group_id":"refund-d","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"refund-e","input":"Can you reimburse the cancelled service?","expected":"refund","group_id":"refund-e","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"refund-f","input":"Where is my refund?","expected":"refund","group_id":"refund-f","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"account-a","input":"Please reset my password.","expected":"account","group_id":"account-a","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"account-b","input":"I cannot sign in to my account.","expected":"account","group_id":"account-b","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"account-c","input":"I cannot log in after changing phones.","expected":"account","group_id":"account-c","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"account-d","input":"I am locked out of my account.","expected":"account","group_id":"account-d","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"account-e","input":"My two-factor code is not arriving.","expected":"account","group_id":"account-e","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"account-f","input":"I need help with account access.","expected":"account","group_id":"account-f","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"general-a","input":"What are your opening hours?","expected":"general","group_id":"general-a","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"general-b","input":"Do you deliver to Canada?","expected":"general","group_id":"general-b","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"general-c","input":"How can I track my parcel?","expected":"general","group_id":"general-c","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"general-d","input":"Is this product available in blue?","expected":"general","group_id":"general-d","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"general-e","input":"Can I update my shipping address?","expected":"general","group_id":"general-e","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}
+{"id":"general-f","input":"Where can I find the user guide?","expected":"general","group_id":"general-f","source":"synthetic-demo","difficulty":"Simple routing fixture; not a production evaluation."}

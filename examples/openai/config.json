@@ -1,0 +1,16 @@
+{
+  "adapter_command": [
+    "{node}",
+    "{project}/examples/openai/adapter.mjs"
+  ],
+  "grader": {
+    "type": "exact"
+  },
+  "repeats": 3,
+  "seed": "experiment-1",
+  "timeout_ms": 60000,
+  "max_output_bytes": 1048576,
+  "tracked_files": [
+    "{project}/examples/openai/adapter.mjs"
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Eval & Hillclimb"
+  short_description: "Build reliable evals and iteratively improve AI workflows."
+  default_prompt: "Use $eval-hillclimb to build an evaluation or improve a specified target within declared scope and budget."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,19 @@
+{
+  "adapter_command": [
+    "{node}",
+    "{project}/examples/router/adapter.mjs",
+    "baseline"
+  ],
+  "grader": {
+    "type": "exact"
+  },
+  "repeats": 3,
+  "seed": "demo-v1",
+  "timeout_ms": 30000,
+  "max_output_bytes": 1048576,
+  "budget_usd": 0,
+  "max_trial_cost_usd": 0,
+  "tracked_files": [
+    "{project}/examples/router/adapter.mjs"
+  ]
+}
