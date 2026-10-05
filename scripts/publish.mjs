@@ -103,7 +103,7 @@ try {
   if (command("git", ["diff", "--cached", "--name-only"], { capture: true }).stdout.trim()) throw new Error("Existing staged changes found; review them before publishing.");
   if (command("git", ["config", "user.name"], { capture: true, allowFailure: true }).status !== 0) command("git", ["config", "user.name", profile.login]);
   if (command("git", ["config", "user.email"], { capture: true, allowFailure: true }).status !== 0) command("git", ["config", "user.email", profile.id + "+" + profile.login + "@users.noreply.github.com"]);
-  command("git", ["add", "--", "README.md", "README.zh-CN.md", "LICENSE", "MANIFEST.json", ".gitignore", ".github", "package.json", "eval-hillclimb", "examples", "tests", "scripts", "docs"]);
+  command("git", ["add", "--", "README.md", "README.zh-CN.md", "LICENSE", "MANIFEST.json", ".gitignore", ".github", ".claude-plugin", "package.json", "eval-hillclimb", "examples", "tests", "scripts", "docs"]);
   if (command("git", ["diff", "--cached", "--name-only"], { capture: true }).stdout.trim()) command("git", ["commit", "-m", "feat: release portable eval and hillclimb skill"]);
   command(gh, ["auth", "setup-git", "--hostname", "github.com"]);
   command(gh, ["repo", "create", repo, "--public", "--description", "Portable evaluation and hillclimbing skill for Codex and ChatGPT", "--source", root, "--remote", "origin", "--push"]);

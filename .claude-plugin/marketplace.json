@@ -1,0 +1,14 @@
+{
+  "name": "eval-hillclimb",
+  "description": "Claude Code marketplace for the eval-hillclimb skill.",
+  "owner": {
+    "name": "neilforest7"
+  },
+  "plugins": [
+    {
+      "name": "eval-hillclimb",
+      "source": "./eval-hillclimb",
+      "description": "Build reliable evaluations and iteratively improve AI workflows."
+    }
+  ]
+}

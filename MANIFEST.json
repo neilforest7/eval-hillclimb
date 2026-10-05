@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "files": [
     ".github/workflows/ci.yml",
+    ".claude-plugin/marketplace.json",
     ".gitignore",
     "LICENSE",
     "MANIFEST.json",
@@ -10,6 +11,7 @@
     "docs/chatgpt-project-instructions.md",
     "docs/chatgpt.md",
     "docs/sources.md",
+    "eval-hillclimb/.claude-plugin/plugin.json",
     "eval-hillclimb/SKILL.md",
     "eval-hillclimb/agents/openai.yaml",
     "eval-hillclimb/assets/experiment.json",
